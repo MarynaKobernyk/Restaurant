@@ -770,8 +770,9 @@ body {
 }
 
 .slider__chef-wrapper {
-  max-width: 53rem;
-  width: 100%;
+  width: 52rem;
+  padding-left: 38px;
+
   height: 29rem;
   position: relative;
 }
@@ -789,6 +790,7 @@ body {
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
   padding-top: 7px;
+  padding-left: 20px;
   font-size: 28px;
   font-weight: bold;
   color: #f4f4fd;
